@@ -15,6 +15,8 @@ module.exports = function (app) {
       friendDifference: 1000
     };
 
+    console.log(req.body);
+
     var userProfile = req.body;
     var usersScores = userProfile.surveyResults;
     var totalDiff = 0;
@@ -22,9 +24,10 @@ module.exports = function (app) {
     for (var i = 0; i < friends.length; i++) {
       totalDiff = 0;
 
-      for (var j = 0; j < friends[i].surveyResults.length; j++) {
+      for (var j = 0; j < usersScores.length; j++) {
 
-        totalDiff += Math.abs(parseInt(usersScores[j]) - parseInt(friends[i].surveyResults[j]));
+        totalDiff += Math.abs(parseInt(usersScores[j]) 
+        - parseInt(friends[i].scores[j]));
 
         if (totalDiff <= bff.friendDifference) {
           bff.name = friends[i].name;
