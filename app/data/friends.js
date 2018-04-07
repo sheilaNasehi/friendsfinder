@@ -1,53 +1,31 @@
-var friends = [
-	
-	{
-		name: "john grey",
-		photo: "https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/17190956_1686211724727533_539067892412082016_n.jpg?oh=0b55db7b8fc8368da8942736eac763f2&oe=59DBA741",
-		scores: [
-			"5",
-			"1",
-			"4",
-			"3",
-			"1",
-			"5",
-			"1",
-			"4",
-			"3",
-			"1"
-		]
-	},
-	{
-		name: "amy adams",
-		photo: "https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/12733450_10207890077428131_71717918753594055_n.jpg?oh=5a3b8de5ab0af58d176cf9b485876042&oe=59DE48D1",
-		scores: [
-			"3",
-			"1",
-			"5",
-			"4",
-			"1",
-			"5",
-			"1",
-			"1",
-			"5",
-			"3"
-		]
-	},
-	{
-		name: "brayan maccartney",
-		photo: "https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/556565_397318307001982_446614727_n.jpg?oh=ecca2cfb2ef048069d0f4c1abb6d3d52&oe=59E168E9",
-		score: [
-			"3",
-			"1",
-			"4",
-			"1",
-			"4",
-			"3",
-			"5",
-			"1",
-			"5",
-			"4"		
-		]
-	}
-];
+var friends = [{
+	"name": "Ahmed", "photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+	"scores": ["5", "1", "4", "4", "5", "1", "2", "5", "4", "1"]
+},
+{
+	"name": "Jacob Deming", "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+	"scores": ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
+}, {
+	"name": "Jeremiah Scanlon", "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+	"scores": ["5", "2", "2", "2", "4", "1", "3", "2", "5", "5"]
+}, {
+	"name": "Louis T. Delia", "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+	"scores": ["3", "3", "4", "2", "2", "1", "3", "2", "2", "3"]
+}, {
+	"name": "Lou Ritter", "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+	"scores": ["4", "3", "4", "1", "5", "2", "5", "3", "1", "4"]
+}, {
+	"name": "Jordan Biason", "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+	"scores": ["4", "4", "2", "3", "2", "2", "3", "2", "4", "5"]
+}, { "name": "blah", "photo": "gth", "scores": ["3", "3", "1", "5", "2", "3", "1", "4", "2", "1"] }, {
+	"name": "hy", "photo": "kjo.img",
+	"scores": ["2", "3", "2", "5", "3", "5", "1", "1", "3", "2"]
+}, {
+	"name": "joe", "photo": "http://i.telegraph.co.uk/multimedia/archive/02869/big_bird1_2869483b.jpg",
+	"scores": ["1", "1", "2", "2", "2", "2", "2", "2", "2", "1"]
+}, {
+	"name": "Jared Henderson", "photo": "http://daddario.com/EvArtistDetail.Page?ActiveID=3551&ArtistId=41353",
+	"scores": ["5", "5", "5", "5", "5", "5", "5", "5", "5", "5"]
+}, { "name": "amir", "photo": "mllklnln", "scores": ["2", "2", "3", "4", "3", "3", "3", "2", "3", "3"] }];
 
 module.exports = friends;
